@@ -1,2 +1,7 @@
-What happens when you initialize a repository? Why do you need to do it?
+1.What happens when you initialize a repository? Why do you need to do it?
 
+Команда git init инициализирует пустой git repository в текущей папке. Текущая папка становится репозиторием, в нее добавляется скрытая дирректория .git, в приглашение добавляется (master), что означает, что мы находимся on branch master, нет ни одного commit.
+
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Рабочая дирректория содержит файлы, staging area содержит файлы из рабочей дирректории, изменения которых я хочу зафиксировать в текущем commit, репозиторий содержит commits.
