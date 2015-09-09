@@ -13,3 +13,9 @@
 4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches могут быть полезны, когда нужно сделать версию с другим языком, или добавить экспериментальную фичу, если пока не известно будет ли она добавлена в основную версию и т. п.
+
+Master branch можно использовать для версии, которую можно предложить длугому пользователю, и можно иметь branches для разработчика.
+
+5.How do the diagrams help you visualize the branch structure?
+
+Команда git log не показывает полностью всю структуру commit для всех branch. Можно перейти на любую branch командой git checkout <branch> и посмотреть git log для этой branch, таким образом можно представить branch structure. 
