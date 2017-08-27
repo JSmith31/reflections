@@ -4,3 +4,5 @@ local?
 I want to use a remote repository when I will work from enother computer.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I may want to troubleshoot before changing my local master.
