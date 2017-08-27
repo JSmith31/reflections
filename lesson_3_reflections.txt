@@ -30,3 +30,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Everyone make local changes and submit pull requests in the repository. That way conflicts can still be seen, and comments
 can be made before a pull request is finalized.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I know someone else is also making changes to the same part of master. Helps see diffs before saving.
